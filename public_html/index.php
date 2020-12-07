@@ -33,6 +33,9 @@
             </p>
                 This is from desktop!
             </p>
+            <div>
+                This is from browser!
+            </div>
             <a href="products.php" class="btn btn-lg btn-secondary cust-btn">Proceed to store</a>
         </div>
 
