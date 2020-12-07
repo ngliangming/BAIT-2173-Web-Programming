@@ -12,7 +12,7 @@
         box-shadow: 0 0 5rem rgba(0, 0, 0, .5);
     }
     
-    .main-text{ 
+    .main-text{
     color: #fff;
     background-color: rgb(0,0,0, .35);
     padding: 1.5rem 1.5rem;
@@ -27,13 +27,13 @@
     <main class="text-center cover-container cover-head mx-auto mt-auto amb-auto">
         <div class="main-text">
             <h1>Welcome to Aeki</h1>
+            <p>
+                Here at Aeki Company, we sell an assortment of furniture ranging from tables to bed mattresses. We pride ourselves on our quality furniture and customer service. We hope you'll be able to find that our wide range of selection suits your taste.
+            </p>
             
             <a href="products.php" class="btn btn-lg btn-secondary cust-btn">Proceed to store</a>
         </div>
 
-            <p>
-                Here at Aeki Company, we sell an assortment of furniture ranging from tables to bed mattresses. We pride ourselves on our quality furniture and customer service. We hope you'll be able to find that our wide range of selection suits your taste.
-            </p>
     </main>
     <!--//Main ends here -->
 test
