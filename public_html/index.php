@@ -6,7 +6,7 @@
         $bg = "cover";  
         
         include 'includes/header.html';
-    ?>test
+    ?>
 <style>
     header{
         box-shadow: 0 0 5rem rgba(0, 0, 0, .5);
