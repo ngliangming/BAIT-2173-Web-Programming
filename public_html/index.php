@@ -31,6 +31,9 @@
             <p>
                 Here at Aeki Company, we sell an assortment of furniture ranging from tables to bed mattresses. We pride ourselves on our quality furniture and customer service. We hope you'll be able to find that our wide range of selection suits your taste.
             </p>
+            <p>
+                This is from browser!
+            </p>
             <a href="products.php" class="btn btn-lg btn-secondary cust-btn">Proceed to store</a>
         </div>
 
