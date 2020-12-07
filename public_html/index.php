@@ -32,9 +32,9 @@
         </div>
 
     </main>
-            <p>
-                Here at Aeki Company, we sell an assortment of furniture ranging from tables to bed mattresses. We pride ourselves on our quality furniture and customer service. We hope you'll be able to find that our wide range of selection suits your taste.
-            </p>
+            <p>s
+                Here at Aeki a, we sell an assortment of furniture ranging from tables to bed mattresses. We pride ourselves on our quality furniture and customer service. We hope you'll be able to find that our wide range of selection suits your taste.
+            </p>s
     <!--//Main ends here -->
 test
 <?php include 'includes/footer.html'?>
