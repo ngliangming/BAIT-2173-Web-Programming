@@ -26,9 +26,6 @@
 
     <!--//Main starts here, enter your shit here -->
     <main class="text-center cover-container cover-head mx-auto mt-auto amb-auto">
-            <p>
-                Here at Aeki Company, we sell an assortment of furniture ranging from tables to bed mattresses. We pride ourselves on our quality furniture and customer service. We hope you'll be able to find that our wide range of selection suits your taste.
-            </p>
         <div class="main-text">
             <h1>Welcome to Aeki</h1>
             <p>
