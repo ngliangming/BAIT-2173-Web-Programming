@@ -51,6 +51,36 @@ PRIMARY KEY (order_id),
 UNIQUE KEY (order_id)
 );
 
+
+
+===================================================
+	Insert Default Data (category/products)
+===================================================
+INSERT INTO product_category (category_name) VALUES ('Coffee Table');
+INSERT INTO product_category (category_name) VALUES ('Home Office Desk');
+INSERT INTO product_category (category_name) VALUES ('Office Chair');
+
+INSERT INTO product (`category`, `name`, `price`, `imgSrc`, `descr`, `available`) VALUES ('1', 'Barilanni Table', '250.00', 'products/Barilanni CT.jpg', 'A simple dark wooden coffee table.', 'Out of stock');
+INSERT INTO product (`category`, `name`, `price`, `imgSrc`, `descr`, `available`) VALUES ('1', 'Calmoni Table', '135.00', 'products/Calmoni CT.jpg', 'A rustic looking wooden coffee table.', 'Available');
+INSERT INTO product (`category`, `name`, `price`, `imgSrc`, `descr`, `available`) VALUES ('1', 'Realyn Table', '350.00', 'products/Realyn CT.jpg', 'A simple, yet elegant looking coffee table.', 'Out of stock');
+INSERT INTO product (`category`, `name`, `price`, `imgSrc`, `descr`, `available`) VALUES ('1', 'Drewing Table', '225.00', 'products/Drewing CT.jpg', 'A simplistic dark wooden table, with a minimalistic look.', 'Available');
+INSERT INTO product (`category`, `name`, `price`, `imgSrc`, `descr`, `available`) VALUES ('1', 'Coralayne Table', '550.00', 'products/Coralayne CT.jpg', 'An elegant metal framed coffee table, with glass pieces.', 'Available');
+INSERT INTO product (`category`, `name`, `price`, `imgSrc`, `descr`, `available`) VALUES ('1', 'Todoe Table', '250.00', 'products/Todoe CT.jpg', 'A simplistic grey wooden coffee table, suitable for any room.', 'Available');
+
+INSERT INTO product (`category`, `name`, `price`, `imgSrc`, `descr`, `available`) VALUES ('2', 'Jaeparli L Desk', '250.00', 'products/Jaeparli L-Desk HOD.jpg', 'A simplistic L-shaped office desk with a wooden worktop. With a minimalistic look, it is suitable for most home offices.', 'Out of stock');
+INSERT INTO product (`category`, `name`, `price`, `imgSrc`, `descr`, `available`) VALUES ('2', 'Soho Desk with Shelf', '550.00', 'products/Soho with Shelf HOD.jpg', 'A simplistic office desk with a wooden worktop and a side shelf, suitable for most home offices.', 'Available');
+INSERT INTO product (`category`, `name`, `price`, `imgSrc`, `descr`, `available`) VALUES ('2', 'Camiburg Desk', '350.00', 'products/Camiburg HOD.jpg', 'A dark wooden home office desk with a black metal frame.', 'Out of stock');
+INSERT INTO product (`category`, `name`, `price`, `imgSrc`, `descr`, `available`) VALUES ('2', 'Dorrison Desk', '350.00', 'products/Dorrison HOD.jpg', 'A dark wooden home office desk with a white metal frame.', 'Available');
+INSERT INTO product (`category`, `name`, `price`, `imgSrc`, `descr`, `available`) VALUES ('2', 'Hamlyn Desk', '650.00', 'products/Hamlyn HOD.jpg', 'A rustic looking wooden home office desk', 'Available');
+INSERT INTO product (`category`, `name`, `price`, `imgSrc`, `descr`, `available`) VALUES ('2', 'Gerdanet Desk', '350.00', 'products/Gerdanet HOD.jpg', 'A simplistic light wooden home office desk with a shelf. With a minimalistic, it is suitable for most home offices', 'Out of stock');
+
+INSERT INTO product (`category`, `name`, `price`, `imgSrc`, `descr`, `available`) VALUES ('3', ' Hamlyn Chair', '350.00', 'products/Hamlyn OC.jpg', 'A rustic looking office chair with a wooden frame.', 'Available');
+INSERT INTO product (`category`, `name`, `price`, `imgSrc`, `descr`, `available`) VALUES ('3', ' Starmore Chair', '250.00', 'products/Starmore OC.jpg', 'A simple looking black office chair with a metal frame.', 'Out of stock');
+INSERT INTO product (`category`, `name`, `price`, `imgSrc`, `descr`, `available`) VALUES ('3', 'Program Home Chair', '250.00', 'products/Program Home OC.jpg', 'A simplistic elegant white office chair.', 'Available');
+INSERT INTO product (`category`, `name`, `price`, `imgSrc`, `descr`, `available`) VALUES ('3', ' Programs Home Chair', '250.00', 'products/Program Home 2 OC.jpg', 'A simplistic elegant office chair.', 'Out of stock');
+
+
+
 ===================================================
 		Creating Admin user
 ===================================================

@@ -4,9 +4,13 @@
     $page_title = "Aeki - Profile";
     //page background
     $bg = "none";
+    
+    require 'includes/login_functions.inc.php';
+    
     if (!(isset($_COOKIE['user_id']))) {
         redirect_user();
     }
+    
     require 'includes/config.inc.php';
     require 'mysql_connect.php';
     
@@ -143,7 +147,6 @@
                     $trimmed['currentpass'];
                     // Check for a password and match against the confirmed password:
 
-                    require ('includes/login_functions.inc.php');
                     list($check, $data) = check_pass($dbc, $user_id, $trimmed['currentpass']);
                     
                     if ($check) {

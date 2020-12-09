@@ -160,7 +160,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
             </option>
 
             <option value="0">
-                 Unavailable
+                 Out of stock
             </option>
         </select>
       
